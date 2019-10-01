@@ -1,0 +1,11 @@
+def multiply_by_5(int):
+# creating the function multiply_by_5 because that is what the function is going to do and try to get that as the end result
+    product = []
+    for element in dub:
+#including element in the for loop so that it can be multiplied by 5
+      product = product + [element * 5]
+    return product
+dub = [1, 4, 16, 10]
+#creating a variable and assigning it to a list of integers so that the function below could multiply the integers.
+multiply_by_5(dub)
+multiply_by_5([5, 12, 15, 20])
